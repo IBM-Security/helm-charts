@@ -1,0 +1,54 @@
+apiVersion: v1
+entries:
+  ibm-sam:
+  - apiVersion: v1
+    appVersion: 9.0.7.1_IF4
+    created: "2020-04-14T11:03:49.818709+01:00"
+    dependencies:
+    - alias: sch
+      name: ibm-sch
+      repository: '@sch'
+      version: 1.2.15
+    - alias: isamconfig
+      name: ibm-sam-config
+      repository: file://charts/ibm-sam-config
+      version: 1.2.0
+    - alias: isamwrp
+      name: ibm-sam-wrp
+      repository: file://charts/ibm-sam-wrp
+      version: 1.2.0
+    - alias: isamruntime
+      name: ibm-sam-runtime
+      repository: file://charts/ibm-sam-runtime
+      version: 1.2.0
+    - alias: isamdsc
+      name: ibm-sam-dsc
+      repository: file://charts/ibm-sam-dsc
+      version: 1.2.0
+    - alias: isampostgresql
+      name: ibm-sam-postgresql
+      repository: file://charts/ibm-sam-postgresql
+      version: 1.2.0
+    - alias: isamopenldap
+      name: ibm-sam-openldap
+      repository: file://charts/ibm-sam-openldap
+      version: 1.2.0
+    description: IBM Security Access Manager provides a simplified access management
+      solution.
+    digest: 4aba1ff00e1730980fad6aeb3e2d7d91e6219eed89d8dcc8ffe6c61c182c5fe9
+    home: https://hub.docker.com/r/ibmcom/isam
+    icon: https://d1q6f0aelx0por.cloudfront.net/product-logos/32925feb-af2b-4b4c-8276-def2a031ed31-artwork2x.png
+    keywords:
+    - isam
+    - amd64
+    - Security
+    - Limited
+    maintainers:
+    - name: IBM Security Access Manager
+    name: ibm-sam
+    sources:
+    - https://github.com/ibm-security/helm-charts/tree/master/
+    urls:
+    - ibm-sam-1.2.0.tgz
+    version: 1.2.0
+generated: "2020-04-14T11:03:49.80909+01:00"
