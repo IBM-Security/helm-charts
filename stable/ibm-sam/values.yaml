@@ -14,7 +14,7 @@ global:
     ldaprepository: ibmcom/isam-openldap:9.0.7.0
     pullPolicy:   IfNotPresent
 
-  # Image credentials.
+  # Image credentials (not needed unless using a private repository)
   imageCredentials:
     dockerSecret: ""
 
