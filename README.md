@@ -9,5 +9,5 @@ The `stable` directory contains Helm chart source provided by IBM, while the `re
 To add the stable repo to the local repository list run the following command :
 
 ```shell
-helm repo add stable https://raw.githubusercontent.com/IBM-Security/helm-charts/master/repo/stable
+helm repo add ibm-security https://raw.githubusercontent.com/IBM-Security/helm-charts/master/repo/stable
 ```
