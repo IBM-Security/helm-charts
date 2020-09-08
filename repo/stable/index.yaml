@@ -3,7 +3,7 @@ entries:
   ibm-sam:
   - apiVersion: v1
     appVersion: 9.0.7.1_IF4
-    created: "2020-04-15T09:21:34.075578+01:00"
+    created: "2020-07-07T13:21:44.170248+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -50,4 +50,54 @@ entries:
     urls:
     - ibm-sam-1.2.0.tgz
     version: 1.2.0
-generated: "2020-04-15T09:21:34.067149+01:00"
+  verify-access:
+  - apiVersion: v1
+    appVersion: 10.0.0.0
+    created: "2020-07-07T13:21:44.176079+01:00"
+    dependencies:
+    - alias: sch
+      name: ibm-sch
+      repository: '@sch'
+      version: 1.2.15
+    - alias: isvaconfig
+      name: verify-access-config
+      repository: file://charts/verify-access-config
+      version: 1.2.0
+    - alias: isvawrp
+      name: verify-access-wrp
+      repository: file://charts/verify-access-wrp
+      version: 1.2.0
+    - alias: isvaruntime
+      name: verify-access-runtime
+      repository: file://charts/verify-access-runtime
+      version: 1.2.0
+    - alias: isvadsc
+      name: verify-access-dsc
+      repository: file://charts/verify-access-dsc
+      version: 1.2.0
+    - alias: isvapostgresql
+      name: verify-access-postgresql
+      repository: file://charts/verify-access-postgresql
+      version: 1.2.0
+    - alias: isvaopenldap
+      name: verify-access-openldap
+      repository: file://charts/verify-access-openldap
+      version: 1.2.0
+    description: IBM Security Verify Access provides a simplified access management
+      solution.
+    digest: 41b16f5888320aafd3e4b2bc536927b5e9864ac244bc1ec7cce5ddf16196c910
+    home: https://hub.docker.com/r/ibmcom/verify-access
+    icon: https://d1q6f0aelx0por.cloudfront.net/product-logos/32925feb-af2b-4b4c-8276-def2a031ed31-artwork2x.png
+    keywords:
+    - isva
+    - amd64
+    - Security
+    maintainers:
+    - name: IBM Security Verify Access
+    name: verify-access
+    sources:
+    - https://github.com/ibm-security/helm-charts/tree/master/
+    urls:
+    - verify-access-1.2.0.tgz
+    version: 1.2.0
+generated: "2020-07-07T13:21:44.162263+01:00"
