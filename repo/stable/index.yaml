@@ -3,7 +3,7 @@ entries:
   ibm-sam:
   - apiVersion: v1
     appVersion: 9.0.7.1_IF4
-    created: "2020-07-07T13:21:44.170248+01:00"
+    created: "2020-11-12T14:04:58.219185Z"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -53,7 +53,56 @@ entries:
   verify-access:
   - apiVersion: v1
     appVersion: 10.0.0.0
-    created: "2020-07-07T13:21:44.176079+01:00"
+    created: "2020-11-12T14:04:58.231532Z"
+    dependencies:
+    - alias: sch
+      name: ibm-sch
+      repository: '@sch'
+      version: 1.2.15
+    - alias: isvaconfig
+      name: verify-access-config
+      repository: file://charts/verify-access-config
+      version: 1.2.1
+    - alias: isvawrp
+      name: verify-access-wrp
+      repository: file://charts/verify-access-wrp
+      version: 1.2.1
+    - alias: isvaruntime
+      name: verify-access-runtime
+      repository: file://charts/verify-access-runtime
+      version: 1.2.1
+    - alias: isvadsc
+      name: verify-access-dsc
+      repository: file://charts/verify-access-dsc
+      version: 1.2.1
+    - alias: isvapostgresql
+      name: verify-access-postgresql
+      repository: file://charts/verify-access-postgresql
+      version: 1.2.1
+    - alias: isvaopenldap
+      name: verify-access-openldap
+      repository: file://charts/verify-access-openldap
+      version: 1.2.1
+    description: IBM Security Verify Access provides a simplified access management
+      solution.
+    digest: 6f1b65a5d12afb64adbdc9f696ccf184deaf307d53f7c02129f33385eea15770
+    home: https://hub.docker.com/r/ibmcom/verify-access
+    icon: https://d1q6f0aelx0por.cloudfront.net/product-logos/32925feb-af2b-4b4c-8276-def2a031ed31-artwork2x.png
+    keywords:
+    - isva
+    - amd64
+    - Security
+    maintainers:
+    - name: IBM Security Verify Access
+    name: verify-access
+    sources:
+    - https://github.com/ibm-security/helm-charts/tree/master/
+    urls:
+    - verify-access-1.2.1.tgz
+    version: 1.2.1
+  - apiVersion: v1
+    appVersion: 10.0.0.0
+    created: "2020-11-12T14:04:58.226774Z"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -100,4 +149,4 @@ entries:
     urls:
     - verify-access-1.2.0.tgz
     version: 1.2.0
-generated: "2020-07-07T13:21:44.162263+01:00"
+generated: "2020-11-12T14:04:58.207226Z"
