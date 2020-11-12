@@ -3,7 +3,7 @@ entries:
   ibm-sam:
   - apiVersion: v1
     appVersion: 9.0.7.1_IF4
-    created: "2020-11-12T14:04:58.219185Z"
+    created: "2020-11-12T15:11:17.475054Z"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -53,7 +53,7 @@ entries:
   verify-access:
   - apiVersion: v1
     appVersion: 10.0.0.0
-    created: "2020-11-12T14:04:58.231532Z"
+    created: "2020-11-12T15:11:17.486671Z"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -102,7 +102,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 10.0.0.0
-    created: "2020-11-12T14:04:58.226774Z"
+    created: "2020-11-12T15:11:17.479936Z"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -134,7 +134,7 @@ entries:
       version: 1.2.0
     description: IBM Security Verify Access provides a simplified access management
       solution.
-    digest: 41b16f5888320aafd3e4b2bc536927b5e9864ac244bc1ec7cce5ddf16196c910
+    digest: c386596e3173c3e3c45cf9646cf6a287f2673f48cbf2dc2a1776441e445354eb
     home: https://hub.docker.com/r/ibmcom/verify-access
     icon: https://d1q6f0aelx0por.cloudfront.net/product-logos/32925feb-af2b-4b4c-8276-def2a031ed31-artwork2x.png
     keywords:
@@ -149,4 +149,4 @@ entries:
     urls:
     - verify-access-1.2.0.tgz
     version: 1.2.0
-generated: "2020-11-12T14:04:58.207226Z"
+generated: "2020-11-12T15:11:17.46728Z"
