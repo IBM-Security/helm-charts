@@ -3,7 +3,7 @@ entries:
   verify-access:
   - apiVersion: v1
     appVersion: 10.0.2.0
-    created: "2021-07-09T09:45:35.812528+01:00"
+    created: "2021-07-09T10:04:20.198313+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -34,7 +34,7 @@ entries:
       repository: file://charts/verify-access-openldap
       version: 1.3.0
     description: IBM Security Verify Access provides a simplified access management solution.
-    digest: 5384b71bddae7a13ae9352b3c285d6a2744dc31e48a16815d140e30d088fbdf6
+    digest: adebed848de8dda0096dea93a5464f4b1a5411eddd14becb4fac01986c10287e
     home: https://hub.docker.com/r/ibmcom/verify-access
     icon: https://d1q6f0aelx0por.cloudfront.net/product-logos/32925feb-af2b-4b4c-8276-def2a031ed31-artwork2x.png
     keywords:
@@ -49,4 +49,4 @@ entries:
     urls:
     - verify-access-1.3.0.tgz
     version: 1.3.0
-generated: "2021-07-09T09:45:35.807035+01:00"
+generated: "2021-07-09T10:04:20.187265+01:00"
